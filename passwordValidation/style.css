@@ -1,0 +1,17 @@
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+label, input{
+    display: block;
+}
+
+small {
+    color: red;
+    font-size : 10px;
+    overflow: auto;
+    word-break: break-all;
+}

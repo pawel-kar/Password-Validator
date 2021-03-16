@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>PasswordValidator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        <div>
+            <label for="password">Hasło</label>
+            <input id="password"  type="password" onkeyup=checkPasswordInput()>
+            <small id="passwordError"></small>
+        </div>
+        <div>
+            <label for="repeatedPassword">Powtórz hasło</label>
+            <input id="repeatedPassword" type="password" onkeyup="checkIfPasswordIsTheSame()" >
+            <small id="repeatedPasswordError"></small>
+        </div>
+    </div>
+    </body>
+</html>
